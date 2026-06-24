@@ -14,7 +14,7 @@ def mostrar_menu():
     print("2. Salir")
     print("="*41)
 
-def generar_contrasena(longitud, mayus, nums, esp):
+def generar_contraseña(longitud, mayus, nums, esp):
     # Base de caracteres con minúsculas por defecto
     caracteres = string.ascii_lowercase
     
@@ -59,7 +59,7 @@ def main():
                 print("⚠️ Error: Ingrese un número válido.")
                 
         elif opcion == "2":
-            print("\nSaliendo del sistema de seguridad. ¡Hasta luego!")
+            print("\nSaliendo del sistema de seguridad. ¡Gracias por usarnos!")
             break
         else:
             print("⚠️ Opción no válida.")
